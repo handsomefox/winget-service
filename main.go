@@ -57,9 +57,10 @@ func isAdmin() bool {
 }
 
 func main() {
-	if !isAdmin() {
-		elevate()
-	}
+	// if !isAdmin() {
+	// 	elevate()
+	// 	return
+	// }
 
 	start := time.Now()
 
